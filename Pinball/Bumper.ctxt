@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=xPos\ yPos\ objectColor\ objectRadius\ theMachine
+comment0.target=Bumper(int,\ int,\ java.awt.Color,\ int,\ Machine)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Bumper.\r\n\ \r\n\ @param\ xPos\ \ The\ horizontal\ coordinate\ of\ the\ object.\r\n\ @param\ yPos\ \ The\ vertical\ coordinate\ of\ the\ object.\r\n\ @param\ objectColor\ \ The\ colour\ of\ the\ object.\r\n\ @param\ objectRadius\ \ The\ radius\ (in\ pixels)\ of\ the\ object.\r\n\ @param\ theMachine\ \ The\ machine\ this\ object\ is\ in.\r\n
+comment1.params=
+comment1.target=void\ drawBumper()
+comment1.text=\r\n\ Draw\ the\ bumper\ on\ the\ canvas.\r\n
+numComments=2

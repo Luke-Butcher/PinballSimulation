@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Demo()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Demo\r\n
+comment1.params=
+comment1.target=void\ functionality1Demo()
+comment1.text=\r\n\ Demonstrates\ the\ walls\ and\ bumper\ interact\ with\ the\ correct\ pinballs\ \r\n\ displaying\ 3\ pinballs\ of\ each\ type\ a\ correctly\ working\ gap\ and\ the\ bumper.\ \r\n
+comment2.params=
+comment2.target=void\ functionality2Demo()
+comment2.text=\r\n\ Demonstrate\ the\ two\ types\ of\ ball\ colliding\ and\ the\ correct\ behaviours.\ \r\n
+comment3.params=
+comment3.target=void\ functionality3Demo()
+comment3.text=\r\n\ Demonstrates\ the\ hole\ object\ interaction.\ \r\n
+comment4.params=
+comment4.target=void\ functionality4Demo()
+comment4.text=\r\n\ Demonstrates\ the\ scoring\ system.\ \r\n
+comment5.params=
+comment5.target=void\ fullSimulation()
+comment5.text=\r\n\ Demonstrates\ all\ the\ functionality\ in\ one\ simulation.\r\n
+numComments=6

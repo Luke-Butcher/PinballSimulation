@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=xPos\ yPos\ xVel\ yVel\ objectColor\ objectRadius\ theMachine
+comment0.target=PinballObject(int,\ int,\ double,\ double,\ java.awt.Color,\ int,\ Machine)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ PinballObject.\r\n\ \r\n\ @param\ xPos\ \ The\ horizontal\ coordinate\ of\ the\ object.\r\n\ @param\ yPos\ \ The\ vertical\ coordinate\ of\ the\ object.\r\n\ @param\ xVel\ \ The\ horizontal\ speed\ of\ the\ object.\r\n\ @param\ yVel\ \ The\ vertical\ speed\ of\ the\ object.\r\n\ @param\ objectColor\ \ The\ color\ of\ the\ object.\r\n\ @param\ objectRadius\ \ The\ radius\ (in\ pixels)\ of\ the\ object.\ \ \ \ \ \r\n\ @param\ theMachine\ \ The\ machine\ this\ object\ is\ in.\r\n
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\r\n\ Move\ this\ object\ according\ to\ its\ position\ and\ speed\ then\ redraw\ it\ \r\n\ if\ the\ machine\ is\ still\ running\ and\ the\ object\ is\ not\ in\ a\ hole.\r\n
+comment2.params=pinball
+comment2.target=void\ bumperCollisionCheck(PinballObject)
+comment2.text=\r\n\ Check\ to\ see\ if\ the\ ball\ has\ collided\ with\ a\ bumper\ object\ \r\n\ and\ change\ the\ speed\ and\ score\ if\ it\ has\ done\ so.\r\n\ \r\n\ @param\ the\ object\ to\ act\ on\ as\ class\ PinballObject.\r\n
+comment3.params=pinball
+comment3.target=void\ ballCollisionCheck(PinballObject)
+comment3.text=\r\n\ Check\ to\ see\ if\ the\ ball\ has\ collided\ with\ another\ pinball\ object\ \r\n\ and\ set\ the\ collision\ state\ to\ true\ if\ it\ has\ done\ so.\r\n\ \r\n\ @param\ the\ object\ to\ act\ on\ as\ class\ PinballObject.\r\n
+comment4.params=pinball
+comment4.target=void\ holeCheck(PinballObject)
+comment4.text=\r\n\ Check\ to\ see\ if\ the\ ball\ has\ collided\ with\ a\ hole\ object\ \r\n\ and\ change\ score\ if\ it\ has\ done\ so\ also\ remove\ it\r\n\ if\ the\ ball\ is\ small\ enough\ to\ fit\ inside\ the\ hole.\r\n\ \r\n\ @param\ the\ object\ to\ act\ on\ as\ class\ PinballObject.\r\n
+numComments=5

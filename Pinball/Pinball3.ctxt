@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=xPos\ yPos\ xVel\ yVel\ objectColor\ objectRadius\ theMachine
+comment0.target=Pinball3(int,\ int,\ double,\ double,\ java.awt.Color,\ int,\ Machine)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Pinball3\r\n\ \r\n\ @param\ xPos\ \ The\ horizontal\ coordinate\ of\ the\ object.\r\n\ @param\ yPos\ \ The\ vertical\ coordinate\ of\ the\ object.\r\n\ @param\ xVel\ \ The\ horizontal\ speed\ of\ the\ object.\r\n\ @param\ yVel\ \ The\ vertical\ speed\ of\ the\ object.\r\n\ @param\ objectColor\ \ The\ color\ of\ the\ object.\r\n\ @param\ objectRadius\ \ The\ radius\ (in\ pixels)\ of\ the\ object.\r\n\ @param\ theMachine\ \ The\ machine\ this\ object\ is\ in.\r\n
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\r\n\ Call\ the\ move\ method\ and\ if\ hitting\ a\ wall\ call\ the\ chageDirection\ function\ \r\n\ if\ collison\ is\ set\ to\ true\ call\ the\ change\ speed\ function.\r\n
+comment2.params=
+comment2.target=void\ changeDirection()
+comment2.text=\r\n\ Change\ the\ direction\ of\ the\ ball\ while\ maintaing\ its\ speed\ by\ changing\ the\ X\ value\ \r\n\ and\ making\ the\ Y\ value\ the\ differance\ between\ the\ speed\ and\ the\ newX\ value.\r\n
+comment3.params=pinball3Object
+comment3.target=double\ changeSpeed(Pinball3)
+comment3.text=\r\nChange\ the\ speed\ of\ the\ ball\ while\ maintaing\ its\ direction\ by\ changing\ the\ X\ value\ and\ Y\ value\r\n\ by\ 50%\ increase\ or\ decrease\ depending\ if\ speed\ is\ at\ the\ max\ limit\ or\ not.\r\n\ \r\n\ @param\ pinball3Object\ the\ object\ to\ act\ on\ as\ class\ Pinball3.\r\n
+comment4.params=newSpeed
+comment4.target=void\ setSpeed(double)
+comment4.text=\r\n\ Set\ the\ speed\ of\ motion\ for\ this\ object.\r\n\ @param\ newSpeed\ the\ new\ speed\ of\ the\ object\ as\ a\ double.\r\n
+numComments=5

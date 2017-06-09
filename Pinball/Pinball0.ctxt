@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=xPos\ yPos\ xVel\ yVel\ objectColor\ objectRadius\ theMachine
+comment0.target=Pinball0(int,\ int,\ double,\ double,\ java.awt.Color,\ int,\ Machine)
+comment0.text=\r\n\ Constructor\ of\ class\ Pinball0.\r\n
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\r\n\ Move\ this\ object\ according\ to\ its\ position\ and\ speed\ and\ redraw\ using\ the\ super\ class\ \r\n\ then\ apply\ the\ specific\ pinball0\ functions.\r\n
+comment2.params=pinball0Object
+comment2.target=java.awt.Color\ colourChange(Pinball0)
+comment2.text=\r\n\ Change\ the\ colour\ of\ the\ pinball\ using\ its\ present\ colour\ to\ identify\ the\ \r\n\ index\ it\ is\ now\ and\ looping\ through\ the\ color\ arrayList.\r\n\ \r\n\ @param\ pinball0Object\ \ The\ object\ to\ act\ on\ as\ class\ Pinball0.\r\n
+comment3.params=pinball0Object
+comment3.target=void\ changeSize(Pinball0)
+comment3.text=\r\n\ Chanage\ the\ size\ of\ the\ pinball\ by\ 10%\ based\ on\ its\ initial\ size\ compared\ to\ its\ current\ size.\r\n\ \r\n\ \ @param\ pinball0Object\ \ The\ object\ to\ act\ on\ as\ class\ Pinball0.\r\n
+numComments=4
